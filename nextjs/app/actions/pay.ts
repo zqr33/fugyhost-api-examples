@@ -14,8 +14,8 @@ export async function pay(itemIndex: number) {
             additionalData: JSON.stringify({
                 itemId: itemIndex,
             }),
-            webhookUrl: "https://examples-nextjs.fugyhost.pl/api/payment",
-            returnUrl: "https://examples-nextjs.fugyhost.pl/payment"
+            webhookUrl: "https://fugyhost-examples-nextjs.zqr33.xyz/api/payments",
+            returnUrl: "https://fugyhost-examples-nextjs.zqr33.xyz/payment"
         })
     })
 
