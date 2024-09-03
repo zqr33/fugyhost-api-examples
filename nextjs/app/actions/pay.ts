@@ -3,7 +3,7 @@
 import { items } from "../items"
 
 export async function pay(itemIndex: number) {
-    const res = await fetch("https://billing-dev.fugyhost.pl/api/payments", {
+    const res = await fetch("https://fugyhost.pl/api/payments", {
         method: "POST",
         headers: {
             Authorization: `API ${process.env.FUGYHOST_API_KEY}`,
